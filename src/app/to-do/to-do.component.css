@@ -1,0 +1,78 @@
+#to-do-form {
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10% 5%;
+    padding: 10px;
+    font-family: "Lucida Console", monospace;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+h4 {
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+#ordered-list {
+
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+ li {
+     margin-top:auto;
+    display: flex;
+    align-content: space-between;
+}
+
+li > *{
+    margin-right:10px;
+}
+
+button {
+    color: hotpink;
+    border-color: hotpink;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.completed-li {
+    text-decoration: line-through;
+}
+
+.clear {
+    height: 20px;
+    width:20px;
+    background-size: cover;
+    background-image: url("src/assets/exit.png");
+    margin-left:auto;
+}
+
+input {
+    border-radius: 5px;
+    height: 40px;
+    
+}
+
+.input-field{
+   color: lightgrey;
+   border: 2px solid lightgrey;
+   text-indent: 5px;
+}
+
+.add-button {
+   
+    font-weight: bold;
+    margin-top: 10px;
+    color:white;
+    border: none;
+    background-color: rgb(238, 58, 148);
+}

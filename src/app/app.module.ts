@@ -1,14 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule} from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { ToDoComponent } from './to-do/to-do.component';
+import { FilterPipe} from './to-do/filter.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ToDoComponent,
+    FilterPipe
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
